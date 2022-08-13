@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Projeto Snow White Slider</title>
+
+	<link rel="shortcut icon" type="image/x-icon" href="./src/imagens/apple.png">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+	
+	<link rel="stylesheet" type="text/css" href="src/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="src/css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="src/css/responsivo.css">
+</head>
+<body>
+	<header class="cabecalho">
+		<img src="./src/imagens/apple.png" alt="maçã" class="maca">
+		<h1 class="titulo">Branca de Neve</h1>
+	</header>
+
+	<main class="maca-slider">
+		<button class="btn-seta btn-voltar" id="btn-voltar">
+			<img src="./src/imagens/seta.PNG" alt="seta voltar">
+		</button>
+
+		<ul class="lista-branca">
+			<li class="cartao selecionado fundo-1">
+				<div class="informacoes">
+					<h2 class="nome">Snow White</h2>
+					<p class="vida">Princesa</p>
+				</div>
+
+				<div class="container-imagem">
+					<img src="./src/imagens/snow-white.png" alt="Snow White" class="imagem-snow">
+				</div>
+
+				<div class="descricao">
+					<h3 class="titulo">Descrição</h3>
+					<p class="texto">Era uma vez uma princesa, muito bela e de pele branquinha, chamada Branca de Neve. A mãe de Branca de Neve, uma bondosa rainha, havia morrido quando ela era ainda um bebê. Alguns anos depois, o pai de Branca de Neve casou-se com uma mulher muito bonita, mas também malvada e cruel.</p>
+				</div>
+			</li>
+			
+			<li class="cartao  fundo-2">
+				<div class="informacoes">
+					<h2 class="nome">Evil Queen</h2>
+					<p class="vida">Madrasta</p>
+				</div>
+
+				<div class="container-imagem">
+					<img src="./src/imagens/evil-queen2.png" alt="Doc" class="imagem-snow">
+				</div>
+
+				<div class="descricao">
+					<h3 class="titulo">Descrição</h3>
+					<p class="texto">A madrasta da princesa era muito vaidosa. Todos os dias ficava diante de um espelho encantado e, para se encher de orgulho, perguntava: — Espelho, espelho meu, existe no mundo alguém mais bela do que eu? E o espelho sempre respondia: — Não, bela rainha! Em todo o mundo, não há beleza maior que a sua. Ao ouvir isso, a rainha sorria feliz e satisfeita.</p>
+				</div>
+			</li>
+
+			<li class="cartao  fundo-3">
+				<div class="informacoes">
+					<h2 class="nome">Doc</h2>
+					<p class="vida">Mestre</p>
+				</div>
+
+				<div class="container-imagem">
+					<img src="./src/imagens/doc.png" alt="Doc" class="imagem-snow">
+				</div>
+
+				<div class="descricao">
+					<h3 class="titulo">Descrição</h3>
+					<p class="texto">Mestre assume o papel de líder do grupo e seus óculos lhe conferem um ar de autoridade e sabedoria. Seu jeito alterado, no entanto, faz com que suas palavras saiam todas truncadas, criando confusões hilárias para os anões.</p>
+				</div>
+			</li>
+		</ul>
+
+		<button class="btn-seta" id="btn-avancar">
+			<img src="./src/imagens/seta.PNG" alt="seta avançar">
+		</button>
+	</main>
+	
+
+	<script type="text/javascript" src="src/js/index.js"></script>
+</body>
+</html>
